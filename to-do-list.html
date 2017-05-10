@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To-Do-List</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="veey">
+      <h1>TO DO LIST!</h1>
+      <p>Just type in the day and what you want to DO!
+        <br>It's that simple!</br>
+      </p>
+    </div>
+  </div>
+  <div class="select">
+    <select name="day select">
+    <option value="Monday">Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thursday</option>
+    <option value="Friday">Friday</option>
+    <option value="Saturday">Saturday</option>
+    <option value="Sunday">Sunday</option>
+  </select>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <form id="text-area">
+          <input class="form-control" type="text" id="general" placeholder="put the general task here">
+          <div class="text-area1">
+            <textarea name="message" rows="5" cols="50" id="message" placeholder="type here"></textarea>
+          </div>
+          <input type="submit" class="place-holder"></input>
+          <button class="btn" id="clear" type="reset">Clear</button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <ul id="here">
+
+      </ul>
+      </form>
+      <div id="show-contact">
+        <h2>Task to do</h2>
+        <p>description: <span class="description"></span></p>
+        <input type="checkbox" name="check" value="complete">Complete <br>
+        <input type="checkbox" name="check" value="incomplete">Incomplete
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
